@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.appium.IOSTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.434 s <<< FAILURE! -- in com.example.appium.IOSTest
+com.example.appium.IOSTest -- Time elapsed: 0.434 s <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: '00008110-00042C110213A01E' 
+Host info: host: 'KX0WMKQ4T7', ip: 'fe80:0:0:0:1418:27ca:31f4:d0d5%en0'
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.3'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {automationName: XCUITest, bundleId: com.trustly.app.trustlyalph..., deviceName: iPhone 14, platformName: IOS, platformVersion: 18.1.1, udid: 00008110-00042C110213A01E, useNewWDA: false}, capabilities=[{appium:platformVersion=18.1.1, appium:useNewWDA=false, platformName=IOS, appium:automationName=XCUITest, appium:deviceName=iPhone 14, appium:udid=00008110-00042C110213A01E, appium:bundleId=com.trustly.app.trustlyalpha.dev}]}]
+Capabilities {automationName: XCUITest, bundleId: com.trustly.app.trustlyalph..., deviceName: iPhone 14, platformName: IOS, platformVersion: 18.1.1, udid: 00008110-00042C110213A01E, useNewWDA: false}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at com.example.appium.IOSTest.setUp(IOSTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
