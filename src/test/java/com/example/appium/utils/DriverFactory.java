@@ -1,6 +1,8 @@
 package com.example.appium.utils;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
@@ -24,12 +26,12 @@ public class DriverFactory {
         try {
             switch (platform.toLowerCase()){
                 case "android":
-                    return new AppiumDriver(
+                    return new AndroidDriver(
                             new URL("https://hub-cloud.browserstack.com/wd/hub"),
                             caps
                     );
                 case "ios":
-                    return new AppiumDriver(
+                    return new IOSDriver(
                             new URL("https://hub-cloud.browserstack.com/wd/hub"),
                             caps
                     );

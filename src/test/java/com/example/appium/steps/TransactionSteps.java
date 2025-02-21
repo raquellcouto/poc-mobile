@@ -50,7 +50,7 @@ public class TransactionSteps {
 
     @Given("I am on the use cases screen")
     public void iAmOnUseCasesScreen() {
-
+        //percy.screenshot("Use Cases Screen");
     }
 
 

@@ -29,6 +29,8 @@ buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${
 framework: "cucumber-junit5"
 #android
 app: bs://7d5e2803d06f32f20fc7b78e1bfbf64c7d3ff013
+#com modificação
+#app: bs://bf847af915ca484864280907472a26c79e0ed272
 # ios
 #app: bs://4fbd4ed84a5de46e998461f809dc51a39a60a649
 # =======================================

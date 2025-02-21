@@ -6,6 +6,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.remote.SupportsContextSwitching;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -45,8 +46,10 @@ public class SignInToYourBankIOS implements SignInToYourBank {
 
     public void enterUser(String user){
 
+        Point x = getUserNameField().getLocation();
+        System.out.println(x);
         getUserNameField().sendKeys(user);
-        System.out.println("mandou ein");
+
     }
 
     public void enterPassword(String password){

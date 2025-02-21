@@ -909,3 +909,75 @@
 16:49:52.971 [ApplicationImpl pooled thread 100] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
 16:49:52.971 [ApplicationImpl pooled thread 100] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
 16:49:52.971 [ApplicationImpl pooled thread 100] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+17:27:48.699 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - junit
+17:27:48.699 [ApplicationImpl pooled thread 118] INFO  com.browserstack.utils.Helpers - true
+17:27:48.699 [ApplicationImpl pooled thread 118] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+17:27:48.700 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+17:27:48.700 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+17:27:48.700 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  c.b.l.BrowserStackRunExtension - junit
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  com.browserstack.utils.Helpers - true
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+17:30:35.328 [ApplicationImpl pooled thread 115] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+10:04:37.707 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - junit
+10:04:37.708 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - true
+10:04:37.708 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:04:37.708 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:04:37.708 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+10:04:37.708 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+10:12:36.492 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - junit
+10:12:36.493 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - true
+10:12:36.493 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:12:36.493 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:12:36.493 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+10:12:36.493 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+10:14:17.457 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - junit
+10:14:17.457 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - true
+10:14:17.458 [ApplicationImpl pooled thread 197] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:14:17.458 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+10:14:17.458 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+10:14:17.458 [ApplicationImpl pooled thread 197] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+12:52:46.301 [ApplicationImpl pooled thread 10] INFO  c.b.l.BrowserStackRunExtension - junit
+12:52:46.303 [ApplicationImpl pooled thread 10] INFO  com.browserstack.utils.Helpers - true
+12:52:46.303 [ApplicationImpl pooled thread 10] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+12:52:46.303 [ApplicationImpl pooled thread 10] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+12:52:46.303 [ApplicationImpl pooled thread 10] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+12:52:46.303 [ApplicationImpl pooled thread 10] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:00:24.654 [ApplicationImpl pooled thread 39] INFO  c.b.l.BrowserStackRunExtension - junit
+14:00:24.654 [ApplicationImpl pooled thread 39] INFO  com.browserstack.utils.Helpers - true
+14:00:24.656 [ApplicationImpl pooled thread 39] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:00:24.656 [ApplicationImpl pooled thread 39] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:00:24.656 [ApplicationImpl pooled thread 39] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:00:24.656 [ApplicationImpl pooled thread 39] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - junit
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - true
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:03:09.984 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:05:40.293 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - junit
+14:05:40.293 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - true
+14:05:40.293 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:05:40.293 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:05:40.294 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:05:40.294 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  c.b.l.BrowserStackRunExtension - junit
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  com.browserstack.utils.Helpers - true
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:09:18.203 [ApplicationImpl pooled thread 43] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  c.b.l.BrowserStackRunExtension - junit
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  com.browserstack.utils.Helpers - true
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:19:35.833 [ApplicationImpl pooled thread 57] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+15:47:23.493 [ApplicationImpl pooled thread 81] INFO  c.b.l.BrowserStackRunExtension - junit
+15:47:23.493 [ApplicationImpl pooled thread 81] INFO  com.browserstack.utils.Helpers - true
+15:47:23.494 [ApplicationImpl pooled thread 81] INFO  com.browserstack.utils.Helpers - /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+15:47:23.494 [ApplicationImpl pooled thread 81] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/raquel.couto/.m2/repository/com/browserstack/browserstack-java-sdk/1.30.2/browserstack-java-sdk-1.30.2.jar
+15:47:23.495 [ApplicationImpl pooled thread 81] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+15:47:23.495 [ApplicationImpl pooled thread 81] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
