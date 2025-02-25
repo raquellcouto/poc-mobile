@@ -1,9 +1,22 @@
 package com.example.appium.utils;
-import com.example.appium.platforms.android.ChooseAnAccountAndroid;
+import com.example.appium.platforms.android.alphamerchant.shopon.*;
+import com.example.appium.platforms.android.alphamerchant.transactiondetail.TransactionDetailsAndroid;
+import com.example.appium.platforms.android.alphamerchant.usecases.*;
+import com.example.appium.platforms.android.sdk.chooseanaccount.ChooseAnAccountAndroid;
+import com.example.appium.platforms.android.alphamerchant.purchasesuccessful.PurchaseSuccessfulAndroid;
+import com.example.appium.platforms.android.sdk.selectbankwidget.SelectBankWidgetAndroid;
+import com.example.appium.platforms.android.sdk.signintoyourbank.SignInToYourBankAndroid;
+import com.example.appium.platforms.interfaces.*;
+import com.example.appium.platforms.ios.alphamerchant.purchasesuccessful.PurchaseSuccessfulIOS;
+import com.example.appium.platforms.ios.alphamerchant.shopon.ShopOnAddToCartIOS;
+import com.example.appium.platforms.ios.alphamerchant.shopon.ShopOnBankDialogIOS;
+import com.example.appium.platforms.ios.alphamerchant.shopon.ShopOnCheckoutIOS;
+import com.example.appium.platforms.ios.alphamerchant.transactiondetail.TransactionDetailsIOS;
+import com.example.appium.platforms.ios.alphamerchant.usecases.UseCasesIOS;
+import com.example.appium.platforms.ios.sdk.chooseanaccount.ChooseAnAccountIOS;
+import com.example.appium.platforms.ios.sdk.selectbankwidget.SelectBankWidgetIOS;
+import com.example.appium.platforms.ios.sdk.signintoyourbank.SignInToYourBankIOS;
 import io.appium.java_client.AppiumDriver;
-import com.example.appium.platforms.*;
-import com.example.appium.platforms.android.*;
-import com.example.appium.platforms.ios.*;
 
 public class PlatformManager {
     public static UseCases getUseCasesScreen(AppiumDriver driver, String platform) {

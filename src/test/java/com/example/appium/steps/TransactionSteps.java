@@ -1,7 +1,7 @@
 package com.example.appium.steps;
 
 
-import com.example.appium.platforms.*;
+import com.example.appium.platforms.interfaces.*;
 import com.example.appium.utils.DriverFactory;
 import com.example.appium.utils.PlatformManager;
 import io.appium.java_client.AppiumDriver;
@@ -34,7 +34,7 @@ public class TransactionSteps {
 
     @Before
     public void setUp() throws Exception {
-        String platform = System.getProperty("platform", "android");
+        String platform = System.getProperty("platform", "ios");
         driver = DriverFactory.getDriver(platform);
         percy = new AppPercy(driver);
         useCases = PlatformManager.getUseCasesScreen(driver, platform);

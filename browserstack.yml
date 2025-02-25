@@ -28,27 +28,29 @@ buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${
 #framework: junit5
 framework: "cucumber-junit5"
 #android
-app: bs://7d5e2803d06f32f20fc7b78e1bfbf64c7d3ff013
+#app: bs://7d5e2803d06f32f20fc7b78e1bfbf64c7d3ff013
 #com modificação
 #app: bs://bf847af915ca484864280907472a26c79e0ed272
 # ios
-#app: bs://4fbd4ed84a5de46e998461f809dc51a39a60a649
+app: bs://4fbd4ed84a5de46e998461f809dc51a39a60a649
+#Demo Bank Oauth
+otherApps: ["bs://99bb7ce4f234d14e722e4911b11db002d4c5904c"]
 # =======================================
 # Platforms (Browsers / Devices to test)
 # =======================================
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - platformName: android
-    platformVersion: 12.0
-    deviceName: Samsung Galaxy S22 Ultra
+#  - platformName: android
+#    platformVersion: 12.0
+#    deviceName: Samsung Galaxy S22 Ultra
 #  - platformName: android
 #    platformVersion: 13.0
 #    deviceName: Google Pixel 7 Pro
 #platforms:
-#  - platformName: ios
-#    platformVersion: 17
-#    deviceName: iPhone 15 Pro Max
+  - platformName: ios
+    platformVersion: 17
+    deviceName: iPhone 15 Pro Max
 #  - platformName: ios
 #    platformVersion: 17
 #    deviceName: iPhone 15 Plus

@@ -1,0 +1,185 @@
+15:50:49.768 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:50:49.903 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+15:50:49.903 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+15:50:50.038 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 com.example.appium.runners.CucumberRunner
+15:50:50.038 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.example.appium.runners.CucumberRunner
+15:50:50.046 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: junit4, Engine: cucumber
+15:50:50.047 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-junit4
+15:50:50.047 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.2
+15:50:50.047 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+15:50:50.047 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+15:50:50.047 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for HUP
+15:50:50.047 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+15:50:51.193 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+15:50:51.960 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 766ms
+15:50:52.985 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 1020ms
+15:50:54.255 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1268ms
+15:50:54.257 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+15:50:54.304 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+15:50:54.307 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"gNKoieUs8yKQYwTApCRV","userName":"browserstackmobi_zchmNp","event_properties":{"product":"[automate]","buildName":"browserstack build","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{"parseLoadClass":7},"language":"java","sdkRunId":"216a6903-2763-4366-9882-0c947f7eca8d","buildIdentifier":"#175","userFramework":"cucumber-junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, junit4, junit5","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":true,"observability":true,"turboscale":false},"referrer":"cucumber-junit5-javaagent\/1.30.2","hostname":"KX0WMKQ4T7","language_framework":"java_cucumber-junit5","detectedFramework":"cucumber-junit4","detectedSeleniumVersion":"4.28.1","seleniumVersion":"4.28.1"}}
+15:50:55.200 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+15:50:55.334 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+15:50:55.334 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1224
+15:50:55.334 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1224
+15:50:55.953 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:50:55.953 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:50:55.955 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : orlopzgggdgdjhofrqqff6nzpq4szzwlxjvyft3x
+15:50:55.957 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+15:50:55.963 [main] DEBUG com.browserstack.PercyFactory - Fetching token for appium-test
+15:50:57.193 [main] DEBUG com.browserstack.percy.PercyBinary - PercyBinary: Checking binary
+15:50:57.194 [main] DEBUG com.browserstack.percy.PercyBinary - PercyBinary: Validating binary on path /Users/raquel.couto/.browserstack/percy
+15:50:59.656 [main] DEBUG com.browserstack.percy.PercyBinary - Percy Binary version output: @percy/cli 1.30.7
+15:51:04.764 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 25_Feb_1550_KX0WMKQ4T7_csKi
+15:51:12.091 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:51:12.198 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+15:51:12.198 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+15:51:12.198 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.2
+15:51:13.057 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+15:51:13.806 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 746ms
+15:51:14.786 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 976ms
+15:51:15.929 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1141ms
+15:51:15.932 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+15:51:16.325 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+15:51:16.333 [main] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:51:16.334 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+15:51:16.342 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:51:16.342 [main] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:51:16.343 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:51:16.590 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:51:16.590 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+15:51:16.593 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:51:18.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1740509478341
+
+15:51:18.349 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+15:51:18.350 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1073
+15:51:18.350 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1073
+15:51:18.747 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:51:18.747 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:51:18.747 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-25T18:51:18.747883Z][ TESTHUB ] Batch event successfull!
+
+15:51:22.336 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3992
+
+15:51:24.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+15:51:28.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+15:51:32.338 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+15:51:36.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4003
+
+15:51:37.377 [main] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+15:51:37.384 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:51:37.384 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:51:37.384 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:51:37.384 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:51:37.492 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:51:37.493 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:51:37.493 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:51:37.493 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:51:37.493 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:51:37.494 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:51:40.340 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+15:51:40.341 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+15:51:40.342 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2057
+15:51:40.342 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2057
+15:51:40.470 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:51:40.470 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:51:40.471 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-25T18:51:40.471040Z][ TESTHUB ] Batch event successfull!
+
+15:51:44.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:51:48.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:51:52.338 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+15:51:54.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+15:51:58.339 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+15:52:00.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+15:52:04.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+15:52:08.337 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+15:52:10.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+15:52:12.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+15:52:14.750 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+15:52:16.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:16.342 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+15:52:16.345 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 34883
+15:52:16.348 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 34883
+15:52:16.607 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:52:16.608 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:52:16.608 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-25T18:52:16.608420Z][ TESTHUB ] Batch event successfull!
+
+15:52:20.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:24.340 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+15:52:26.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+15:52:30.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:34.341 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+15:52:36.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+15:52:40.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:44.337 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+15:52:46.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+15:52:50.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:54.342 [pool-1-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+15:52:55.210 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:52:55.214 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:52:55.215 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:52:55.215 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:52:55.215 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:52:55.216 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:52:55.827 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:52:55.828 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:52:55.828 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:52:55.828 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-use.browserstack.com/wd/hub
+15:52:55.829 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind CBTSessionCreated
+15:52:57.248 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:52:57.248 [main] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:52:57.250 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:52:57.259 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+15:52:57.260 [main] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:52:57.262 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+15:52:57.285 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:52:57.285 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:52:57.285 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-25T18:52:57.285967Z][ OBSERVABILITY ] Processing stop observability
+15:52:57.286 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+15:52:57.286 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10177
+15:52:57.286 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10177
+15:52:57.415 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:52:57.415 [pool-2-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:52:57.415 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-25T18:52:57.415591Z][ TESTHUB ] Batch event successfull!
+
+15:52:57.868 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+15:52:57.869 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+15:52:57.871 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:52:57.872 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+15:52:57.872 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/orlopzgggdgdjhofrqqff6nzpq4szzwlxjvyft3x/stop with request size 65
+15:52:57.872 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/orlopzgggdgdjhofrqqff6nzpq4szzwlxjvyft3x/stop with request size 65
+15:52:58.454 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+15:52:58.454 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:52:58.455 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
