@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.alphamerchant.shopon;
 
 import com.example.appium.platforms.interfaces.ShopOnCheckout;
+import com.example.appium.platforms.ios.alphamerchant.shopon.selectors.ShoponSelectors;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -20,7 +21,7 @@ public class ShopOnCheckoutIOS implements ShopOnCheckout {
     }
 
     public void clickOnCheckoutButton(){
-        WebElement checkoutButton = driver.findElement(By.xpath("//XCUIElementTypeButton[@name=\"Go to checkout\"]"));
+        WebElement checkoutButton = driver.findElement(ShoponSelectors.checkoutButton);
         checkoutButton.click();
     }
 
@@ -28,7 +29,7 @@ public class ShopOnCheckoutIOS implements ShopOnCheckout {
     public void clickOnPlaceOrderButton() {
         WebElement placeOrderButton  = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Place order\"]")
+                        ShoponSelectors.placeOrderButton
                 )
         );
 

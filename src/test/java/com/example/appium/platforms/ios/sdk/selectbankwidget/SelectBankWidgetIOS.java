@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.sdk.selectbankwidget;
 
 import com.example.appium.platforms.interfaces.SelectBankWidget;
+import com.example.appium.platforms.ios.sdk.selectbankwidget.selectors.SelectBankWidgetSelector;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.PointerInput;
@@ -42,7 +43,7 @@ public class SelectBankWidgetIOS implements SelectBankWidget {
 
         WebElement cancelButton = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Clear\"]")
+                        SelectBankWidgetSelector.cancelButton
                 )
         );
 

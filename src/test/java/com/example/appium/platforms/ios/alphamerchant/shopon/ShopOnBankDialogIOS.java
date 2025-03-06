@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.alphamerchant.shopon;
 
 import com.example.appium.platforms.interfaces.ShopOnBankDialog;
+import com.example.appium.platforms.ios.alphamerchant.shopon.selectors.ShoponSelectors;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
@@ -24,7 +25,7 @@ public class ShopOnBankDialogIOS implements ShopOnBankDialog {
     public void clickOnOkGotItButton(){
         WebElement okGotItButton = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"OK, got it!\"]")
+                        ShoponSelectors.okGotItButton
                 )
         );
 

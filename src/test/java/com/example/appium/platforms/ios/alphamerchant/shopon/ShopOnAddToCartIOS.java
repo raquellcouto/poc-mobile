@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.alphamerchant.shopon;
 
 import com.example.appium.platforms.interfaces.ShopOnAddToCart;
+import com.example.appium.platforms.ios.alphamerchant.shopon.selectors.ShoponSelectors;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -42,13 +43,13 @@ public class ShopOnAddToCartIOS implements ShopOnAddToCart {
     public void waitIncrementButtonLoad(){
         WebElement incrementButton = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("(//XCUIElementTypeButton[@name=\"Increment\"])[1]")
+                        ShoponSelectors.incrementButton
                 )
         );
     }
 
     public void clickOnGoToCartButton(){
-        WebElement goToCartButton = driver.findElement(By.xpath("//XCUIElementTypeButton[@name=\"Go to cart\"]"));
+        WebElement goToCartButton = driver.findElement(ShoponSelectors.goToCartButton);
         goToCartButton.click();
     }
 

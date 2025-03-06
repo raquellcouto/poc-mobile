@@ -6,6 +6,7 @@ import com.example.appium.utils.DriverFactory;
 import com.example.appium.utils.PlatformManager;
 import io.appium.java_client.AppiumDriver;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.percy.appium.AppPercy;
 
 public class TransactionSteps {
-    private AppiumDriver driver;
+    private static AppiumDriver driver;
     private UseCases useCases;
     private ShopOnAddToCart shopOnAddToCart;
     private ShopOnCheckout shopOnCheckout;
@@ -36,7 +37,6 @@ public class TransactionSteps {
     public void setUp() throws Exception {
         String platform = System.getProperty("platform", "ios");
         driver = DriverFactory.getDriver(platform);
-        percy = new AppPercy(driver);
         useCases = PlatformManager.getUseCasesScreen(driver, platform);
         shopOnAddToCart = PlatformManager.getShopOnAddToCartScreen(driver, platform);
         shopOnCheckout = PlatformManager.getShopOnCheckoutScreen(driver, platform);
@@ -46,6 +46,10 @@ public class TransactionSteps {
         chooseAnAccount = PlatformManager.getChooseAnAccountScreen(driver, platform);
         transactionDetails = PlatformManager.getTransactionDetailsScreen(driver, platform);
         purchaseSuccessful = PlatformManager.getPurchaseSuccessfulScreen(driver, platform);
+
+        if (driver != null && driver.getSessionId() != null) {
+            percy = new AppPercy(driver);
+        }
     }
 
     @Given("I am on the use cases screen")
@@ -138,6 +142,7 @@ public class TransactionSteps {
     }
 
 
+
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
@@ -147,7 +152,14 @@ public class TransactionSteps {
             JavascriptExecutor jse = (JavascriptExecutor) driver;
             jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\", \"reason\": \"Scenario passed\"}}");
         }
-        driver.quit();
+    }
+
+    @AfterAll
+    public static void tearDown() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
 
 }

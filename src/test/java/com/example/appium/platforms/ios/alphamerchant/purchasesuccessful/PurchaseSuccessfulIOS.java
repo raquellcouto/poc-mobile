@@ -1,6 +1,8 @@
 package com.example.appium.platforms.ios.alphamerchant.purchasesuccessful;
 
+import com.example.appium.platforms.android.alphamerchant.purchasesuccessful.selectors.PurchaseSuccessfulSelector;
 import com.example.appium.platforms.interfaces.PurchaseSuccessful;
+import com.example.appium.platforms.ios.alphamerchant.purchasesuccessful.selectors.PurchaseSuccessfullSelector;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -24,7 +26,7 @@ public class PurchaseSuccessfulIOS implements PurchaseSuccessful {
     public String purchaseSuccessfulMessage(){
         WebElement purchaseSuccessfulMessage  = finalWait.until(
                 ExpectedConditions.presenceOfElementLocated(
-                        By.xpath("//XCUIElementTypeStaticText[@name=\"Purchase successful\"]")
+                        PurchaseSuccessfullSelector.purchaseSucessefullMessage
                 )
         );
         return purchaseSuccessfulMessage.getText();
@@ -33,7 +35,7 @@ public class PurchaseSuccessfulIOS implements PurchaseSuccessful {
     public void clickOnBackToUseCasesButton(){
         WebElement backToUseCasesButton  = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Back to use cases\"]")
+                        PurchaseSuccessfullSelector.backToUseCasesButton
                 )
         );
 

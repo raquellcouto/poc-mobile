@@ -1,10 +1,8 @@
 package com.example.appium.platforms.ios.sdk.signintoyourbank;
 
 import com.example.appium.platforms.interfaces.SignInToYourBank;
-import io.appium.java_client.AppiumBy;
+import com.example.appium.platforms.ios.sdk.signintoyourbank.selectors.SignInToYourBankSelector;
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +27,7 @@ public class SignInToYourBankIOS implements SignInToYourBank {
 
         return wait.until(
                 ExpectedConditions.presenceOfElementLocated(
-                        AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`name == \"Username\"`]")
+                        SignInToYourBankSelector.userNameField
                 )
         );
 
@@ -39,7 +37,7 @@ public class SignInToYourBankIOS implements SignInToYourBank {
     public WebElement getPasswordField(){
         return wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeSecureTextField[@name=\"Password\"]")
+                        SignInToYourBankSelector.passwordField
                 )
         );
     }
@@ -55,7 +53,7 @@ public class SignInToYourBankIOS implements SignInToYourBank {
     }
 
     public void clickOnAgreeAndSignInText(){
-        WebElement clickAndSignInText = driver.findElement(By.xpath("//XCUIElementTypeStaticText[@name=\"By clicking 'Agree & Sign in', you agree to the Trustly\"]"));
+        WebElement clickAndSignInText = driver.findElement(SignInToYourBankSelector.agreeAndSignText);
         clickAndSignInText.click();
     }
 
@@ -63,7 +61,7 @@ public class SignInToYourBankIOS implements SignInToYourBank {
     public void clickOnAgreeAndSignInButton() {
         WebElement buttonDemoBankSingIn  = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Agree & Sign in\"]")
+                        SignInToYourBankSelector.demoBankSignInButton
                 )
         );
 

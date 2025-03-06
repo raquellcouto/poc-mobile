@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.alphamerchant.usecases;
 
 import com.example.appium.platforms.interfaces.UseCases;
+import com.example.appium.platforms.ios.alphamerchant.usecases.selectors.UseCaseSelector;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -22,7 +23,7 @@ public class UseCasesIOS implements UseCases {
     public void selectAndClickShopOnWebCheckout(){
         WebElement shopOnWebCheckout = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Shop.On (web checkout), Payment, eCommerce\"]")
+                        UseCaseSelector.shopOnWebCheckoutElement
                 )
         );
         shopOnWebCheckout.click();

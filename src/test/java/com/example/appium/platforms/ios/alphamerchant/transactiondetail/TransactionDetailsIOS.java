@@ -1,6 +1,7 @@
 package com.example.appium.platforms.ios.alphamerchant.transactiondetail;
 
 import com.example.appium.platforms.interfaces.TransactionDetails;
+import com.example.appium.platforms.ios.alphamerchant.transactiondetail.selectors.TransactionDetailsSelector;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -22,7 +23,7 @@ public class TransactionDetailsIOS implements TransactionDetails {
     public void clickOnCloseButton(){
         WebElement closeButton  = wait.until(
                 ExpectedConditions.elementToBeClickable(
-                        By.xpath("//XCUIElementTypeButton[@name=\"Close\"]")
+                        TransactionDetailsSelector.closeButton
                 )
         );
 
