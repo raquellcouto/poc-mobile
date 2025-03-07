@@ -35,7 +35,7 @@ public class TransactionSteps {
 
     @Before
     public void setUp() throws Exception {
-        String platform = System.getProperty("platform", "android");
+        String platform = System.getProperty("platform", "ios");
         driver = DriverFactory.getDriver(platform);
         useCases = PlatformManager.getUseCasesScreen(driver, platform);
         shopOnAddToCart = PlatformManager.getShopOnAddToCartScreen(driver, platform);

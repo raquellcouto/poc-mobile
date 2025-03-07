@@ -1,5 +1,6 @@
 package com.example.appium.platforms.ios.alphamerchant.shopon;
 
+import com.example.appium.platforms.base.BaseMethods;
 import com.example.appium.platforms.interfaces.ShopOnBankDialog;
 import com.example.appium.platforms.ios.alphamerchant.shopon.selectors.ShoponSelectors;
 import io.appium.java_client.AppiumBy;
@@ -11,25 +12,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ShopOnBankDialogIOS implements ShopOnBankDialog {
+public class ShopOnBankDialogIOS extends BaseMethods implements ShopOnBankDialog {
 
-
-    private static AppiumDriver driver;
-    private static WebDriverWait wait;
 
     public ShopOnBankDialogIOS (AppiumDriver driver){
-        this.driver = driver;
-        this.wait =  new WebDriverWait(driver, Duration.ofSeconds(10));
+        super(driver);
     }
 
     public void clickOnOkGotItButton(){
-        WebElement okGotItButton = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        ShoponSelectors.okGotItButton
-                )
-        );
 
-        okGotItButton.click();
+        clickWhenClickable(ShoponSelectors.okGotItButton);
+
     }
 
 

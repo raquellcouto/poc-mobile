@@ -1,5 +1,6 @@
 package com.example.appium.platforms.ios.alphamerchant.transactiondetail;
 
+import com.example.appium.platforms.base.BaseMethods;
 import com.example.appium.platforms.interfaces.TransactionDetails;
 import com.example.appium.platforms.ios.alphamerchant.transactiondetail.selectors.TransactionDetailsSelector;
 import io.appium.java_client.AppiumDriver;
@@ -10,23 +11,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class TransactionDetailsIOS implements TransactionDetails {
-
-    private static AppiumDriver driver;
-    private static WebDriverWait wait;
+public class TransactionDetailsIOS extends BaseMethods implements TransactionDetails {
 
     public TransactionDetailsIOS (AppiumDriver driver){
-        this.driver = driver;
-        this.wait =  new WebDriverWait(driver, Duration.ofSeconds(15));
+
+        super(driver);
     }
 
     public void clickOnCloseButton(){
-        WebElement closeButton  = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        TransactionDetailsSelector.closeButton
-                )
-        );
 
-        closeButton.click();
+        clickWhenClickable(TransactionDetailsSelector.closeButton);
+
     }
 }

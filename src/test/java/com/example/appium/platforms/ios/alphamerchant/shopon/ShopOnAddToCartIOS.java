@@ -1,5 +1,6 @@
 package com.example.appium.platforms.ios.alphamerchant.shopon;
 
+import com.example.appium.platforms.base.BaseMethods;
 import com.example.appium.platforms.interfaces.ShopOnAddToCart;
 import com.example.appium.platforms.ios.alphamerchant.shopon.selectors.ShoponSelectors;
 import io.appium.java_client.AppiumDriver;
@@ -10,18 +11,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ShopOnAddToCartIOS implements ShopOnAddToCart {
+public class ShopOnAddToCartIOS extends BaseMethods implements ShopOnAddToCart {
 
     private static AppiumDriver driver;
     private static WebDriverWait wait;
 
     public ShopOnAddToCartIOS (AppiumDriver driver){
+        super(driver);
         this.driver = driver;
         this.wait =  new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     public void clickIncrementButtons(AppiumDriver driver) {
-        WebElement incrementButton = wait.until(
+        wait.until(
                 ExpectedConditions.elementToBeClickable(
                         ShoponSelectors.incrementButton
                 )
@@ -47,8 +49,7 @@ public class ShopOnAddToCartIOS implements ShopOnAddToCart {
 
 
     public void clickOnGoToCartButton(){
-        WebElement goToCartButton = driver.findElement(ShoponSelectors.goToCartButton);
-        goToCartButton.click();
+        clickWhenClickable(ShoponSelectors.goToCartButton);
     }
 
 }
