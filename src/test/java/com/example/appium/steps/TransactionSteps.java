@@ -35,7 +35,7 @@ public class TransactionSteps {
 
     @Before
     public void setUp() throws Exception {
-        String platform = System.getProperty("platform", "ios");
+        String platform = System.getProperty("platform", "android");
         driver = DriverFactory.getDriver(platform);
         useCases = PlatformManager.getUseCasesScreen(driver, platform);
         shopOnAddToCart = PlatformManager.getShopOnAddToCartScreen(driver, platform);
@@ -65,7 +65,6 @@ public class TransactionSteps {
 
     @When("I add items to cart")
     public void addItemsToCart() {
-        shopOnAddToCart.waitIncrementButtonLoad();
         shopOnAddToCart.clickIncrementButtons(driver);
 
     }

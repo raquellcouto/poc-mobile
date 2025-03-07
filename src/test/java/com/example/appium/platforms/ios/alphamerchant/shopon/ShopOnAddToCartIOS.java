@@ -21,6 +21,11 @@ public class ShopOnAddToCartIOS implements ShopOnAddToCart {
     }
 
     public void clickIncrementButtons(AppiumDriver driver) {
+        WebElement incrementButton = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        ShoponSelectors.incrementButton
+                )
+        );
         int numberOfElements = 3;
 
         // Loop para clicar em cada botão de incremento
@@ -40,13 +45,6 @@ public class ShopOnAddToCartIOS implements ShopOnAddToCart {
         }
     }
 
-    public void waitIncrementButtonLoad(){
-        WebElement incrementButton = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        ShoponSelectors.incrementButton
-                )
-        );
-    }
 
     public void clickOnGoToCartButton(){
         WebElement goToCartButton = driver.findElement(ShoponSelectors.goToCartButton);

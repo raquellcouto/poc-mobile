@@ -1,5 +1,6 @@
 package com.example.appium.platforms.android.alphamerchant.shopon;
 
+import com.example.appium.platforms.base.BaseMethods;
 import com.example.appium.platforms.interfaces.ShopOnCheckout;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
@@ -11,14 +12,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class ShopOnCheckoutAndroid implements ShopOnCheckout {
+public class ShopOnCheckoutAndroid extends BaseMethods implements ShopOnCheckout {
 
     private static AppiumDriver driver;
     private static WebDriverWait wait;
 
     public ShopOnCheckoutAndroid  (AppiumDriver driver){
+        super(driver);
         this.driver = driver;
-        this.wait =  new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     @Override
@@ -36,18 +37,7 @@ public class ShopOnCheckoutAndroid implements ShopOnCheckout {
 
     @Override
     public void clickOnPlaceOrderButton() {
-        WebElement placeOrderButton  = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        By.className("android.widget.Button")
-                )
-        );
+        clickByButtonName("Place order");
 
-        List<WebElement> buttons = driver.findElements(By.className("android.widget.Button"));
-        for (WebElement button : buttons) {
-            if (button.getText().contains("Place order")) {
-                button.click();
-                break;
-            }
-        }
     }
 }
