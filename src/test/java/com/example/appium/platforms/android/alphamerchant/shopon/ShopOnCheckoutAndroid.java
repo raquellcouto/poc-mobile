@@ -1,5 +1,6 @@
 package com.example.appium.platforms.android.alphamerchant.shopon;
 
+import com.example.appium.platforms.android.alphamerchant.shopon.selectors.ShopOnSelectors;
 import com.example.appium.platforms.base.BaseMethods;
 import com.example.appium.platforms.interfaces.ShopOnCheckout;
 import io.appium.java_client.AppiumBy;
@@ -37,7 +38,13 @@ public class ShopOnCheckoutAndroid extends BaseMethods implements ShopOnCheckout
 
     @Override
     public void clickOnPlaceOrderButton() {
-        clickByButtonName("Place order");
+        scrollUntilMiddleScreen();
+        if(isElementPresent(ShopOnSelectors.placeOrderButtonUpperCase)){
+            clickByButtonName("PLACE ORDER");
+        }
+        else if(isElementPresent(ShopOnSelectors.placeOrderButtonLowerCase)){
+            clickByButtonName("Place order");
+        }
 
     }
 }

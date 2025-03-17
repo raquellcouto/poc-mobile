@@ -27,6 +27,7 @@ public class SelectBankWidgetIOS extends BaseMethods implements SelectBankWidget
 
     @Override
     public void searchBank(String bankName) {
+        scrollUntilMiddleScreen();
         typeText(SelectBankWidgetSelector.searchbankField, bankName);
 
     }

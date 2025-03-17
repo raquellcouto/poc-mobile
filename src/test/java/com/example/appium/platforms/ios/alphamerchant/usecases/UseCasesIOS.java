@@ -20,6 +20,15 @@ public class UseCasesIOS extends BaseMethods implements UseCases {
 
     public void selectAndClickShopOnWebCheckout(){
 
-        clickWhenClickable(UseCaseSelector.shopOnWebCheckoutElement);
+        clickWhenClickable(UseCaseSelector.shopOnWebCheckoutUseCase);
+    }
+
+    public void selectAndClickGameOn(){
+        clickWhenClickable(UseCaseSelector.gameOnUseCase);
+    }
+
+    @Override
+    public void selectAndClickShopOn() {
+        clickWhenClickable(UseCaseSelector.shopOnUseCase);
     }
 }

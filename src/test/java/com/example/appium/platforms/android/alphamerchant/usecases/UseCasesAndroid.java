@@ -13,8 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class UseCasesAndroid extends BaseMethods implements UseCases {
-    private static AppiumDriver driver;
-    private static WebDriverWait wait;
 
     public UseCasesAndroid (AppiumDriver driver){
         super(driver);
@@ -22,6 +20,16 @@ public class UseCasesAndroid extends BaseMethods implements UseCases {
 
     @Override
     public void selectAndClickShopOnWebCheckout() {
-        clickWhenClickable(UseCasesSelector.shopOnWebCheckout);
+        clickWhenClickable(UseCasesSelector.shopOnWebCheckoutUseCase);
+    }
+
+    @Override
+    public void selectAndClickGameOn(){
+        clickWhenClickable(UseCasesSelector.gameOnUseCase);
+    }
+
+    @Override
+    public void selectAndClickShopOn() {
+        clickWhenClickable(UseCasesSelector.shopOnUseCase);
     }
 }

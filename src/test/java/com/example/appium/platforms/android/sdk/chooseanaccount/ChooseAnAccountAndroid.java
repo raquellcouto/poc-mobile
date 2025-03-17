@@ -22,6 +22,9 @@ public class ChooseAnAccountAndroid extends BaseMethods implements ChooseAnAccou
 
     @Override
     public void clickOnWithdrawnButton() {
+        if(isElementPresent(ChooseAnAccountSelector.okButtonChangeYourPasswordDialog)){
+            clickByButtonName("OK");
+        }
         clickWhenClickable(ChooseAnAccountSelector.withdrawButton);
     }
 

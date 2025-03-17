@@ -30,11 +30,15 @@ public class TransactionSteps {
     private ChooseAnAccount chooseAnAccount;
     private TransactionDetails transactionDetails;
     private PurchaseSuccessful purchaseSuccessful;
+    private GameOnPaymentAddedSuccessfully gameOnPaymentAddedSuccessfully;
+    private GameOnAddFunds gameOnAddFunds;
+    private GameOnTransactionResult gameOnTransactionResult;
     private AppPercy percy;
 
 
     @Before
     public void setUp() throws Exception {
+        DriverFactory.quitDriver();
         String platform = System.getProperty("platform", "ios");
         driver = DriverFactory.getDriver(platform);
         useCases = PlatformManager.getUseCasesScreen(driver, platform);
@@ -46,20 +50,26 @@ public class TransactionSteps {
         chooseAnAccount = PlatformManager.getChooseAnAccountScreen(driver, platform);
         transactionDetails = PlatformManager.getTransactionDetailsScreen(driver, platform);
         purchaseSuccessful = PlatformManager.getPurchaseSuccessfulScreen(driver, platform);
+        gameOnPaymentAddedSuccessfully = PlatformManager.getGameOnPaymentAddedSuccessfullyScreen(driver, platform);
+        gameOnAddFunds = PlatformManager.getGameOnAddFundsScreen(driver, platform);
+        gameOnTransactionResult = PlatformManager.getGameOnTransactionResultScreen(driver, platform);
 
         if (driver != null && driver.getSessionId() != null) {
             percy = new AppPercy(driver);
         }
+
+
     }
 
     @Given("I am on the use cases screen")
     public void iAmOnUseCasesScreen() {
-        //percy.screenshot("Use Cases Screen");
+
+        percy.screenshot("Use Cases Screen");
     }
 
 
-    @When("I select the web checkout option")
-    public void selectWebCheckoutOption() {
+    @When("I select the Shop On web checkout use case")
+    public void selectWebCheckoutUseCase() {
         useCases.selectAndClickShopOnWebCheckout();
     }
 
@@ -130,14 +140,47 @@ public class TransactionSteps {
     }
 
     @Then("I should see the message {string}")
-    public void purchaseSuccessfulMessage(String mensagem) {
-        String actualMessage = purchaseSuccessful.purchaseSuccessfulMessage();
-        assertEquals(mensagem, actualMessage);
+    public void purchaseSuccessfulMessage(String expectedMessage) {
+        String actualMessage;
+        if(expectedMessage.equals("Purchase successful")){
+            actualMessage = purchaseSuccessful.purchaseSuccessfulMessage();
+        }
+        else if(expectedMessage.equals("Deposit completed")){
+            actualMessage =gameOnTransactionResult.depositCompletedMessage();
+        } else {
+            throw new IllegalArgumentException("Mensagem não reconhecida: " + expectedMessage);
+        }
+        assertEquals(expectedMessage, actualMessage);
     }
 
     @Then("I go back to use cases screen")
     public void clickOnBackToUseCasesButton() {
         purchaseSuccessful.clickOnBackToUseCasesButton();
+    }
+
+
+    @When("I select the Game.on use case")
+    public void selectGameOnUseCase() {
+        useCases.selectAndClickGameOn();
+    }
+
+    @Then("I click on back to checkout button")
+    public void clickOnBackToCheckoutButton(){
+        gameOnPaymentAddedSuccessfully.clickOnBackToCheckout();
+    }
+    @Then("I choose a deposit amount value {string}")
+    public void clickOnDepositAmountValue(String amountValue){
+        gameOnAddFunds.selectDepositAmount(amountValue);
+    }
+
+    @Then("I click on Make deposit button")
+    public void clickOnMakeDepositButton(){
+        gameOnAddFunds.clickOnMakeDepositButton();
+    }
+
+    @When("I select the Shop.On use case")
+    public void selectAndClickShopOn(){
+        useCases.selectAndClickShopOn();
     }
 
 
@@ -155,10 +198,7 @@ public class TransactionSteps {
 
     @AfterAll
     public static void tearDown() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-        }
+        DriverFactory.quitDriver();
     }
 
 }

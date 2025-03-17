@@ -4485,3 +4485,521 @@
 11:48:21.303 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
 11:48:27.227 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/a17f7da7b7af7b225c3286ba1289e703e831e1d5
 11:48:27.227 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:24:45.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+16:24:45.129 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+16:24:45.216 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:24:45.216 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+16:24:45.614 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+16:24:45.614 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+16:24:50.189 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:24:51.143 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+16:25:00.058 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+16:25:00.059 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:25:07.972 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:25:08.408 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:25:08.409 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+16:25:12.012 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:26:46.012 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bkp1ohgpxikoasn6svacnykmydgafpsu5jqymxmh to view build report, insights, and many more debugging information all at one place!
+
+16:26:46.013 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:26:48.960 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+16:26:55.542 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/371fdc497418a877ba2690bcaf596c5f7a7e0d53
+16:26:55.543 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:40:36.934 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+14:40:36.935 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+14:40:37.079 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:40:37.080 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:40:37.495 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+14:40:37.495 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+14:40:42.555 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:40:43.520 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:40:53.120 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+14:40:53.120 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:41:02.709 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:41:03.185 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:41:03.186 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:41:07.121 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:43:52.994 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/07iunh1puuwv5hkqc2mxkblk0ryl3f0kcq6npdbl to view build report, insights, and many more debugging information all at one place!
+
+14:43:52.994 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:43:56.116 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+14:44:02.195 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/44bc43226761a66cc12319a219cec54df0f2ce96
+14:44:02.196 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:49:32.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+14:49:32.033 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+14:49:32.148 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:49:32.148 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:49:32.524 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+14:49:32.524 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+14:49:37.199 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:49:38.133 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:49:46.880 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+14:49:46.880 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:49:56.336 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:49:56.699 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:49:56.700 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:50:00.601 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:53:08.753 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/clxej3srdl2nz8ypw05vhiyda8mafvjdarqwgjbf to view build report, insights, and many more debugging information all at one place!
+
+14:53:08.753 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:53:11.952 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+14:53:18.226 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/8e470fb6d0c5491f32f151d5be5b2034e317424c
+14:53:18.226 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:19:15.801 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:19:15.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:19:15.883 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:19:15.883 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:19:16.188 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+10:19:16.188 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:19:21.189 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:19:22.041 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:19:31.870 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:19:31.870 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:19:40.853 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:19:41.218 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:19:41.219 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:19:45.086 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:22:06.264 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ni0byu8ilvupr7rtxj4xwbnqf3qwrlxusy4e5ibt to view build report, insights, and many more debugging information all at one place!
+
+10:22:06.265 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:22:08.567 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:22:14.618 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/69c7957c8eb38b23857f1b780aac8181ba77e91f
+10:22:14.619 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:26:23.668 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:26:23.669 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:26:23.748 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:26:23.748 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:26:24.044 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+10:26:24.044 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:26:28.812 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:26:29.652 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:26:37.936 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:26:37.937 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:26:45.154 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:26:45.481 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:26:45.482 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:26:49.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:29:30.813 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/rmnx81fbknzv9frfcmjl29i4bhcy35uarxl8l5gg to view build report, insights, and many more debugging information all at one place!
+
+10:29:30.815 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:29:33.210 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:29:39.234 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/4389f9760e7088a93d05f78299192c030cdee2e7
+10:29:39.234 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:31:20.250 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:31:20.252 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:31:20.363 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:31:20.363 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:31:20.686 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+10:31:20.686 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:31:25.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:31:26.499 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:31:35.196 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:31:35.196 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:31:42.684 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:31:43.005 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:31:43.006 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:31:46.623 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:33:58.689 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/7urirbbvmfx8vokpkcudd3ja8aszagkzidpzu3a3 to view build report, insights, and many more debugging information all at one place!
+
+10:33:58.690 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:34:00.988 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:34:07.251 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/39c3f5b230b0869dc4f829fa67db3517f836c6c1
+10:34:07.252 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:36:28.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:36:28.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:36:28.112 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:36:28.113 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:36:28.429 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+10:36:28.429 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:36:32.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:36:33.689 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:36:41.824 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:36:41.824 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:36:49.692 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:36:50.011 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:36:50.012 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:36:53.700 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:41:21.963 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/125oibalrndzcthds2ctxstdlxdo0c9vxegy3b5q to view build report, insights, and many more debugging information all at one place!
+
+10:41:21.964 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:41:24.575 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:41:31.578 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/0a394b300022df73497f479a216b90b766364ca5
+10:41:31.578 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:43:03.068 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:43:03.069 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:43:03.146 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:43:03.146 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:43:03.424 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+10:43:03.424 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:43:07.981 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:43:08.730 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:43:17.199 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:43:17.200 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:43:23.937 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:43:24.270 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:43:24.271 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:43:27.885 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:46:06.594 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dmjpblfxx3ljwqfbr9labf6064fxg3mtprmrelys to view build report, insights, and many more debugging information all at one place!
+
+10:46:06.596 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:46:09.018 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:46:15.062 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e4337cf70c6a37c859f659ed2b82fee6843206e0
+10:46:15.062 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:07:58.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:07:58.299 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:07:58.373 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:07:58.373 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:07:58.665 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+11:07:58.665 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:08:03.349 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:08:04.380 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:08:13.147 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:08:13.147 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:08:19.795 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:08:20.090 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:08:20.091 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:08:23.746 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:12:30.814 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+11:12:31.464 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/rihq922fdvfj9tzwwaygzkk6py6thcusvomzzg66 to view build report, insights, and many more debugging information all at one place!
+
+11:12:31.464 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:15:55.162 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:15:55.164 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:15:55.278 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:15:55.279 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:15:55.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+11:15:55.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:16:00.359 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:16:01.256 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:16:09.093 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:16:09.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:16:15.422 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:16:15.718 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:16:15.719 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:16:19.461 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:19:42.921 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bolufvsitho0vfpw1pg3c3bgmqrjijlxhbeziloa to view build report, insights, and many more debugging information all at one place!
+
+11:19:42.921 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:19:45.321 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+11:19:51.085 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/311c190fda723d7ef780b8f19c8ee464949e617d
+11:19:51.086 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:30:10.242 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:30:10.243 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:30:10.338 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:30:10.338 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:30:10.622 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+11:30:10.622 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:30:15.498 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:30:16.407 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:30:24.890 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:30:24.890 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:30:31.801 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:30:32.120 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:30:32.121 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:30:35.858 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:35:27.838 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/drtltymq7cwfw7ev7oomzsgrly7m0jyqxrcs4r9t to view build report, insights, and many more debugging information all at one place!
+
+11:35:27.838 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:35:30.181 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+11:35:36.227 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/934810c98630a7c7463b3a2a9388b43f0145b3b1
+11:35:36.228 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:39:30.343 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:39:30.345 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:39:30.421 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:39:30.421 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:39:30.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+11:39:30.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:39:35.709 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:39:36.448 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:39:44.832 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:39:44.832 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:39:51.719 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:39:52.027 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:39:52.028 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:39:55.681 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:42:50.694 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4zt8bfjn5b9xygpmdhgkpg8yvu0dlip9aj6ryi5h to view build report, insights, and many more debugging information all at one place!
+
+11:42:50.694 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:42:53.219 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+11:42:58.915 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/72c1fef85797d525ff2a914cb3804987328bce67
+11:42:58.916 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:54:35.854 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:54:35.855 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:54:35.929 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:54:35.929 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:54:36.204 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+11:54:36.204 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:54:41.451 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:54:42.307 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:54:50.744 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:54:50.745 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:54:58.191 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:54:58.500 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:54:58.501 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:55:02.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:59:13.096 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gcuoy0mmi9q30jinuzakcpf2cck860xjwoxn5u4s to view build report, insights, and many more debugging information all at one place!
+
+11:59:13.096 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:59:15.529 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+11:59:21.443 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/dae6680f2f73d50f9c63af76dbe43d9468420af6
+11:59:21.444 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:28:59.254 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+12:28:59.255 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+12:28:59.330 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:28:59.330 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+12:28:59.614 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+12:28:59.614 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+12:29:05.639 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:29:06.891 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+12:29:15.090 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+12:29:15.091 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:29:22.447 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:29:22.739 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:29:22.740 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+12:29:26.841 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:33:02.690 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/yzllynmqj6p6huiurpt2ghji6gfz3m6lzh6kufim to view build report, insights, and many more debugging information all at one place!
+
+12:33:02.690 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:33:04.922 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+12:33:10.804 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/ecda8258b0981d9145aaccb53595599ca1808a3b
+12:33:10.804 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:07:43.808 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+13:07:43.809 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+13:07:43.885 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:07:43.885 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:07:44.163 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+13:07:44.163 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+13:07:49.989 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:07:50.888 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:07:59.423 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+13:07:59.423 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:08:06.227 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:08:06.519 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:08:06.520 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:08:10.355 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:11:21.709 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sqtgdrphsczypgtnwwduzufwobaf1zxd81kxnuxc to view build report, insights, and many more debugging information all at one place!
+
+13:11:21.711 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:11:24.269 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+13:11:30.302 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e30f835808a8fd37e9928c9a20ae59dca77bc96d
+13:11:30.302 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:18:00.441 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+13:18:00.442 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+13:18:00.519 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:18:00.519 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:18:00.792 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+13:18:00.792 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+13:18:05.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:18:06.282 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:18:14.339 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+13:18:14.339 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:18:20.809 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:18:21.114 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:18:21.115 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:18:24.804 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:21:26.160 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gxfuirddjs5z2aje3sjnikd53lp3umxdmifezth1 to view build report, insights, and many more debugging information all at one place!
+
+13:21:26.160 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:21:28.421 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+13:21:34.133 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/9f0aee95188306f2f298c3f1d85913ae3eefe8a7
+13:21:34.134 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:57:12.333 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+13:57:12.334 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+13:57:12.409 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:57:12.410 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:57:12.693 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+13:57:12.693 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+13:57:18.080 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:57:19.006 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:57:27.351 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+13:57:27.352 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:57:34.041 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:57:34.347 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:57:34.348 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+13:57:38.040 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:59:58.884 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/2kifbdxvpmjywcua5r5bqabggo5lvxp0ljqn2y1l to view build report, insights, and many more debugging information all at one place!
+
+13:59:58.884 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:00:01.272 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+14:00:07.050 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/db13af2c3ee3607bcfbc4e5e6088052c5ed46618
+14:00:07.050 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:07:45.958 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+14:07:45.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+14:07:46.031 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:07:46.032 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:07:46.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+14:07:46.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+14:07:51.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:07:52.035 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:08:00.520 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+14:08:00.520 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:08:08.059 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:08:08.361 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:08:08.362 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:08:12.000 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:11:28.178 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ilwwqdcfit2raon6ptdnvh0im2cab2fdzxfbjyrl to view build report, insights, and many more debugging information all at one place!
+
+14:11:28.178 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:11:30.469 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+14:11:36.240 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/c35f3ca541653efd670cb64fac6d5df4a717ec19
+14:11:36.240 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:12:44.271 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+14:12:44.272 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+14:12:44.346 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:12:44.346 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:12:44.621 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+14:12:44.621 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+14:12:49.358 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:12:49.939 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:12:56.793 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+14:12:56.793 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:13:03.658 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:13:03.960 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:13:03.961 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+14:13:07.641 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:15:04.932 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/azvnvfiv0ba9hpxghzb2przugsohytwe2nf4rgvi to view build report, insights, and many more debugging information all at one place!
+
+14:15:04.933 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:15:07.296 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+14:15:13.600 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/ccf133be17dc733fa8ce0140ccbdc5ecb566731e
+14:15:13.601 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:07:57.584 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+16:07:57.587 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+16:07:57.704 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:07:57.704 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+16:07:58.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+16:07:58.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+16:08:02.732 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:08:03.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+16:08:12.127 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+16:08:12.128 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:08:19.374 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:08:19.736 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:08:19.737 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+16:08:23.456 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:09:48.813 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/taxrk1tnmbndafxotuk5tsefmnduonbpyufrwbeo to view build report, insights, and many more debugging information all at one place!
+
+16:09:48.814 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:09:51.282 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+16:09:57.208 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/74a568f103f62df0137196f5395548ac36e30686
+16:09:57.208 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:47:00.285 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+09:47:00.286 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+09:47:00.363 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+09:47:00.363 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+09:47:00.666 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://ddf7afb67ebff5cb5bcb06fd286943e47f957bf9]
+09:47:00.666 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+09:47:05.737 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:47:06.648 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+09:47:15.075 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+09:47:15.075 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:47:21.943 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:47:22.251 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+09:47:22.252 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+09:47:25.904 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:50:47.144 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/cfhfwhmtisk6qvgwkfqhbbw2xdqxjxftyig7il5f to view build report, insights, and many more debugging information all at one place!
+
+09:50:47.144 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:50:49.474 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+09:50:55.240 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/ba3742ce74d222eca31abbf461b167b747f6c294
+09:50:55.240 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:02:35.154 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+15:02:35.155 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+15:02:35.230 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:02:35.230 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:02:35.607 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+15:02:35.607 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+15:02:40.147 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:02:40.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:02:49.484 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:02:49.485 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:02:56.895 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:02:57.232 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:02:57.233 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:03:00.842 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:04:58.152 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ubzbgg5khu6j080y9w1kc7jmawz3ngxdwvlyjssa to view build report, insights, and many more debugging information all at one place!
+
+15:04:58.153 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:05:00.720 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:05:06.936 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/bb1cb3e24e300eb6b55178daa984036c152cf605
+15:05:06.938 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:21:12.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+15:21:12.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+15:21:12.155 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:21:12.156 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:21:12.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+15:21:12.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+15:21:17.290 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:21:18.368 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:21:28.066 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:21:28.067 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:21:36.509 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:21:36.923 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:21:36.924 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:21:40.661 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:23:08.064 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/hna8gc7z4mxgkvqjtmqixqz4z67mx8xwftfqnuyl to view build report, insights, and many more debugging information all at one place!
+
+15:23:08.065 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:23:10.429 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:23:16.284 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/75b99a5e5838b1c790666daeb3d4cfaec14399e9
+15:23:16.284 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:26:50.597 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+15:26:50.598 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+15:26:50.683 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:26:50.684 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:26:51.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+15:26:51.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+15:26:55.650 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:26:56.443 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:27:04.941 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:27:04.942 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:27:12.230 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:27:12.611 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:27:12.612 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+15:27:16.320 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:29:24.548 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/o4xg56bntkqiijwnpyiuyi2q8ut4mdkve5lxexvl to view build report, insights, and many more debugging information all at one place!
+
+15:29:24.548 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:29:27.419 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:29:33.968 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/f8435010fc6a195755ef01f3aa925cbfdb0ec2a7
+15:29:33.968 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:47:32.593 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+10:47:32.595 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+10:47:32.665 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:47:32.665 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:47:32.996 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+10:47:32.996 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+10:47:37.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:47:37.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:47:47.042 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:47:47.042 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:47:53.896 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:47:54.271 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:47:54.272 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+10:47:57.909 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:51:37.483 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/3wkw04onirsfg2qfnhchvua4xkcobsjawnhickte to view build report, insights, and many more debugging information all at one place!
+
+10:51:37.483 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:51:39.645 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:51:45.320 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/b608abac26ecd17183e1b753fa30f33be6a600c2
+10:51:45.320 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:12:34.555 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.28.1
+11:12:34.557 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+11:12:34.644 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:12:34.645 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:12:34.949 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07a767eebbfc40523486271281305ecfa2f88193]
+11:12:34.949 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-junit5
+11:12:38.989 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:12:39.880 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:12:48.416 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+11:12:48.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:12:55.140 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:12:55.456 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:12:55.457 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/raquel.couto/appium-test/browserstack.yml
+11:12:59.227 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:18:15.317 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/g3v7zhsdckj7tov7tcem2e1ci47dhr6jijtjqrs3 to view build report, insights, and many more debugging information all at one place!
+
+11:18:15.319 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:18:17.730 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+11:18:24.254 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/23d8f87d3a674e34741d7a54535c34262c5cf701
+11:18:24.254 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

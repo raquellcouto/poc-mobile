@@ -1,4 +1,7 @@
 package com.example.appium.utils;
+import com.example.appium.platforms.android.alphamerchant.gameon.GameOnAddFundsAndroid;
+import com.example.appium.platforms.android.alphamerchant.gameon.GameOnPaymentAddedSuccessfullyAndroid;
+import com.example.appium.platforms.android.alphamerchant.gameon.GameOnTransactionResultAndroid;
 import com.example.appium.platforms.android.alphamerchant.shopon.*;
 import com.example.appium.platforms.android.alphamerchant.transactiondetail.TransactionDetailsAndroid;
 import com.example.appium.platforms.android.alphamerchant.usecases.*;
@@ -7,6 +10,9 @@ import com.example.appium.platforms.android.alphamerchant.purchasesuccessful.Pur
 import com.example.appium.platforms.android.sdk.selectbankwidget.SelectBankWidgetAndroid;
 import com.example.appium.platforms.android.sdk.signintoyourbank.SignInToYourBankAndroid;
 import com.example.appium.platforms.interfaces.*;
+import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnAddFundsIOS;
+import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnPaymentAddedSuccessfullyIOS;
+import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnTransactionResultIOS;
 import com.example.appium.platforms.ios.alphamerchant.purchasesuccessful.PurchaseSuccessfulIOS;
 import com.example.appium.platforms.ios.alphamerchant.shopon.ShopOnAddToCartIOS;
 import com.example.appium.platforms.ios.alphamerchant.shopon.ShopOnBankDialogIOS;
@@ -25,6 +31,17 @@ public class PlatformManager {
                 return new UseCasesAndroid(driver);
             case "ios":
                 return new UseCasesIOS(driver);
+            default:
+                throw new IllegalArgumentException("Unsupported platform: " + platform);
+        }
+    }
+
+    public static GameOnPaymentAddedSuccessfully getGameOnPaymentAddedSuccessfullyScreen(AppiumDriver driver, String platform) {
+        switch (platform.toLowerCase()) {
+            case "android":
+                return new GameOnPaymentAddedSuccessfullyAndroid(driver);
+            case "ios":
+                return new GameOnPaymentAddedSuccessfullyIOS(driver);
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
@@ -102,6 +119,28 @@ public class PlatformManager {
                 return new SignInToYourBankAndroid(driver);
             case "ios":
                 return new SignInToYourBankIOS(driver);
+            default:
+                throw new IllegalArgumentException("Unsupported platform: " + platform);
+        }
+    }
+
+    public static GameOnAddFunds getGameOnAddFundsScreen (AppiumDriver driver, String platform) {
+        switch (platform.toLowerCase()) {
+            case "android":
+                return new GameOnAddFundsAndroid(driver);
+            case "ios":
+                return new GameOnAddFundsIOS(driver);
+            default:
+                throw new IllegalArgumentException("Unsupported platform: " + platform);
+        }
+    }
+
+    public static GameOnTransactionResult getGameOnTransactionResultScreen(AppiumDriver driver, String platform){
+        switch (platform.toLowerCase()) {
+            case "android":
+                return new GameOnTransactionResultAndroid(driver);
+            case "ios":
+                return new GameOnTransactionResultIOS(driver);
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }

@@ -138,6 +138,7 @@ public class BaseMethods {
 
     }
 
+
     // Configuração do timeout de espera
     protected void setWaitTimeout(int seconds) {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));

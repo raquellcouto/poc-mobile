@@ -22,7 +22,6 @@ public class DriverFactory {
     private static AppiumDriver initializeDriver(String platform){
         DesiredCapabilities caps = new DesiredCapabilities();
 
-
         try {
             switch (platform.toLowerCase()){
                 case "android":
