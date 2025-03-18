@@ -30,6 +30,17 @@ public class BaseMethods {
         driver.findElement(locator).click();
     }
 
+    protected void clickAndClearElement(By locator){
+        WebElement element = wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        locator
+                )
+        );
+        element.clear();
+        element.click();
+
+    }
+
     protected void clickWhenClickable(By locator) {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
