@@ -1,4 +1,5 @@
 package com.example.appium.utils;
+import com.example.appium.platforms.android.alphamerchant.custom.selectors.CustomAndroid;
 import com.example.appium.platforms.android.alphamerchant.gameon.GameOnAddFundsAndroid;
 import com.example.appium.platforms.android.alphamerchant.gameon.GameOnPaymentAddedSuccessfullyAndroid;
 import com.example.appium.platforms.android.alphamerchant.gameon.GameOnTransactionResultAndroid;
@@ -10,6 +11,7 @@ import com.example.appium.platforms.android.alphamerchant.purchasesuccessful.Pur
 import com.example.appium.platforms.android.sdk.selectbankwidget.SelectBankWidgetAndroid;
 import com.example.appium.platforms.android.sdk.signintoyourbank.SignInToYourBankAndroid;
 import com.example.appium.platforms.interfaces.*;
+import com.example.appium.platforms.ios.alphamerchant.custom.CustomIOS;
 import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnAddFundsIOS;
 import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnPaymentAddedSuccessfullyIOS;
 import com.example.appium.platforms.ios.alphamerchant.gameon.GameOnTransactionResultIOS;
@@ -130,6 +132,17 @@ public class PlatformManager {
                 return new GameOnAddFundsAndroid(driver);
             case "ios":
                 return new GameOnAddFundsIOS(driver);
+            default:
+                throw new IllegalArgumentException("Unsupported platform: " + platform);
+        }
+    }
+
+    public static CustomScreen getCustomScreen (AppiumDriver driver, String platform){
+        switch (platform.toLowerCase()) {
+            case "android":
+                return new CustomAndroid(driver);
+            case "ios":
+                return new CustomIOS(driver);
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }

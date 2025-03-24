@@ -33,6 +33,7 @@ public class TransactionSteps {
     private GameOnPaymentAddedSuccessfully gameOnPaymentAddedSuccessfully;
     private GameOnAddFunds gameOnAddFunds;
     private GameOnTransactionResult gameOnTransactionResult;
+    private CustomScreen customScreen;
     private AppPercy percy;
 
 
@@ -53,6 +54,7 @@ public class TransactionSteps {
         gameOnPaymentAddedSuccessfully = PlatformManager.getGameOnPaymentAddedSuccessfullyScreen(driver, platform);
         gameOnAddFunds = PlatformManager.getGameOnAddFundsScreen(driver, platform);
         gameOnTransactionResult = PlatformManager.getGameOnTransactionResultScreen(driver, platform);
+        customScreen = PlatformManager.getCustomScreen(driver, platform);
 
         if (driver != null && driver.getSessionId() != null) {
             percy = new AppPercy(driver);
@@ -181,6 +183,31 @@ public class TransactionSteps {
     @When("I select the Shop.On use case")
     public void selectAndClickShopOn(){
         useCases.selectAndClickShopOn();
+    }
+
+    @When("I select the {string} use case")
+    public void selectCustomUseCase(String useCase){
+        useCases.clickOnUseCase(useCase);
+    }
+
+    @Then("I choose the amount value {string}")
+    public void selectAmountValue(String amountValue){
+        customScreen.selectAmountValue(amountValue);
+    }
+
+    @Then("I choose the Environment {string}")
+    public void selectEnvironment(String environment){
+        customScreen.selectEnvironment(environment);
+    }
+
+    @Then("I choose the payment type {string}")
+    public void selectPaymentType(String paymentType){
+        customScreen.selectPaymentType(paymentType);
+    }
+
+    @Then("I click on continue button")
+    public void clickOnContinueButton(){
+        customScreen.clickOnContinueButton();
     }
 
 

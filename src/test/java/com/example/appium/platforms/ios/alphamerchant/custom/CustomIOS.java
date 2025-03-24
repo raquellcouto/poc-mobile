@@ -6,6 +6,8 @@ import com.example.appium.platforms.ios.alphamerchant.custom.selectors.CustomSel
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 
 public class CustomIOS extends BaseMethods implements CustomScreen {
 
@@ -19,7 +21,36 @@ public class CustomIOS extends BaseMethods implements CustomScreen {
         By environmentSelector = AppiumBy.accessibilityId(environment);
         clickWhenClickable(environmentSelector);
     }
-    
+
+    public void selectAmountValue(String amountValue){
+        By environmentSelector = AppiumBy.accessibilityId(amountValue);
+        clickWhenClickable(environmentSelector);
+    }
+
+    @Override
+    public void clickOnContinueButton() {
+        clickWhenClickable(CustomSelector.continueToDevButton);
+    }
+
+    @Override
+    public void selectMerchant() {
+        scrollUntilMiddleScreen();
+        clickWithOffSet(CustomSelector.selectMerchant, 40);
+    }
+
+    @Override
+    public boolean merchantIsPresent(String customMerchantName) {
+        try {
+            waitForElementToBeVisible(AppiumBy.accessibilityId(customMerchantName));
+            return driver.findElement(AppiumBy.accessibilityId(customMerchantName)).isDisplayed();
+        } catch (NoSuchElementException | TimeoutException e) {
+
+            return false;
+        }
+    }
+
+
+
     @Override
     public void selectPaymentType(String paymentType) {
         By paymentTypeSelector = AppiumBy.accessibilityId(paymentType);
@@ -28,16 +59,19 @@ public class CustomIOS extends BaseMethods implements CustomScreen {
 
     @Override
     public void createCustomMerchant(String id, String name, String accessId, String accessKey) {
-        clickAndClearElement(CustomSelector.customMerchantId);
+
+        clickElement(CustomSelector.customMerchant);
+
+        clickAndClearElement(CustomSelector.customBeforeMerchantId);
         typeText(CustomSelector.customMerchantId, id);
 
-        clickAndClearElement(CustomSelector.customMerchantName);
+        clickAndClearElement(CustomSelector.customBeforeMerchantName);
         typeText(CustomSelector.customMerchantName, name);
 
-        clickAndClearElement(CustomSelector.customMerchantAccessId);
+        clickAndClearElement(CustomSelector.customBeforeMerchantAccessId);
         typeText(CustomSelector.customMerchantAccessId, accessId);
 
-        clickAndClearElement(CustomSelector.customMerchantAccessKey);
+        clickAndClearElement(CustomSelector.customBeforeMerchantAccessKey);
         typeText(CustomSelector.customMerchantAccessKey, accessKey);
 
         clickWhenClickable(CustomSelector.saveMerchantButton);

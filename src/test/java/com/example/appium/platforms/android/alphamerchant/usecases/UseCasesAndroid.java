@@ -32,4 +32,9 @@ public class UseCasesAndroid extends BaseMethods implements UseCases {
     public void selectAndClickShopOn() {
         clickWhenClickable(UseCasesSelector.shopOnUseCase);
     }
+
+    @Override
+    public void clickOnUseCase(String useCase) {
+
+    }
 }

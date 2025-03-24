@@ -7,4 +7,8 @@ public interface CustomScreen {
     void selectPaymentType(String paymentType);
     void createCustomMerchant(String id, String name, String accessId, String accessKey);
     void createCustomAmount(String amount, String minimumBalance, String displayAmount);
+    void selectAmountValue(String amountValue);
+    void clickOnContinueButton();
+    void selectMerchant();
+    boolean merchantIsPresent(String customMerchantName);
 }

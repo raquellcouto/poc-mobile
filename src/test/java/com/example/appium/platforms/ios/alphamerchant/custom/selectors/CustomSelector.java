@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class CustomSelector {
     public static final By continueToDevButton = AppiumBy.accessibilityId("Continue to Dev - Trustly Alpha");
-    public static final By selectMerchant = AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`value == \"Globex\"`]/XCUIElementTypeStaticText");
+    public static final By selectMerchant = AppiumBy.accessibilityId("Merchant");
     public static final By selectCurrency = AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`value == \"USD - United States\"`]/XCUIElementTypeStaticText");
     public static final By selectUser = AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`value == \"US - John Smith\"`]/XCUIElementTypeStaticText");
     public static final By selectLanguage = AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`value == \"English (en) - USA (us)\"`]/XCUIElementTypeStaticText");
@@ -26,10 +26,14 @@ public class CustomSelector {
     public static final By customMerchantShopOn = AppiumBy.accessibilityId("Shop.on");
     public static final By customMerchant = AppiumBy.accessibilityId("Custom");
 
-    public static final By customMerchantId = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"110005514\"`]");
-    public static final By customMerchantName = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"Globex\"`]");
-    public static final By customMerchantAccessId = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"A48B73F694C4C8EE6306\"`]");
-    public static final By customMerchantAccessKey = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"9D37BD31C761FA87463C\"`]");
+    public static final By customBeforeMerchantId = By.xpath("//XCUIElementTypeTextField[@value=\"110005514\"]");
+    public static final By customMerchantId = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"ID\"`]");
+    public static final By customBeforeMerchantName = By.xpath("//XCUIElementTypeTextField[@value=\"Globex\"]");
+    public static final By customMerchantName = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"Name\"`]");
+    public static final By customBeforeMerchantAccessId = By.xpath("//XCUIElementTypeTextField[@value=\"A48B73F694C4C8EE6306\"]");
+    public static final By customMerchantAccessId = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"Access ID\"`]");
+    public static final By customBeforeMerchantAccessKey = By.xpath("//XCUIElementTypeTextField[@value=\"9D37BD31C761FA87463C\"]");
+    public static final By customMerchantAccessKey = AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == \"Access Key\"`]");
     public static final By saveMerchantButton = AppiumBy.accessibilityId("SAVE MERCHANT");
 
 

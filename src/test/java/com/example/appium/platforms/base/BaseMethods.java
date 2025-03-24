@@ -1,5 +1,6 @@
 package com.example.appium.platforms.base;
 
+import browserstack.shaded.com.google.common.collect.ImmutableMap;
 import com.example.appium.platforms.android.sdk.selectbankwidget.selectors.SelectBankWidgetSelector;
 import com.example.appium.platforms.android.sdk.signintoyourbank.selectors.SignInToYourBankSelector;
 import io.appium.java_client.AppiumDriver;
@@ -25,7 +26,7 @@ public class BaseMethods {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    // Métodos utilitários para interação com elementos
+
     protected void clickElement(By locator) {
         driver.findElement(locator).click();
     }
@@ -37,9 +38,10 @@ public class BaseMethods {
                 )
         );
         element.clear();
-        element.click();
+        System.out.println("Limpou aqui");
 
     }
+
 
     protected void clickWhenClickable(By locator) {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
